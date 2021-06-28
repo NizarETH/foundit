@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/green_"
+        android:layout_marginBottom="4dp"
+        android:elevation="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Sélectionner une action"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/open_picture"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list_item_back_color"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fileimage"
+                android:tint="@color/green_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo"
+                android:textColor="@color/green_" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/dark_gray" />
+
+        <LinearLayout
+            android:id="@+id/open_gallery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list_item_back_color"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/folders"
+                android:tint="@color/green_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="@color/green_" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

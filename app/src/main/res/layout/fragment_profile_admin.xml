@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragementMenu.ProfileFragment">
+
+
+    <TextView
+        android:id="@+id/modifier_vo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="43dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="top"
+        android:text="@string/modifier_vo" />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/photo" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="169dp"
+        android:text="User name" />
+
+    <EditText
+        android:id="@+id/modifier_ad"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="64dp"
+        android:textColor="@color/blue_"
+        android:textSize="13sp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+
+        android:hint="@string/modifier_ad"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/modifier_nu"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="290dp"
+
+        android:textColor="@color/blue_"
+        android:textSize="13sp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+
+        android:hint="@string/modifier_nu"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/modifier_le"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="65dp"
+
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="350dp"
+
+        android:textColor="@color/blue_"
+        android:textSize="13sp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/modifier_le"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/update_profil"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/poster_"
+        android:textColor="@color/white"
+        android:text="Modifier"
+        app:backgroundTint="@color/blue_" />
+
+</FrameLayout>

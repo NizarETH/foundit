@@ -1,0 +1,38 @@
+
+|
+java:S1192›"^Define a constant instead of duplicating this literal " CatÃ©gorie est enregesitrÃ©e" 4 times.(°‡ÿœ8“”£Ö¤/
+f	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÁÞÃ
+f	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â®Òõ
+f	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª°¡‡
+k	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÔÞýÿÿÿÿ
+C
+java:S1604q"(Make this anonymous inner class a lambda(íèµúÿÿÿÿ
+?
+java:S1604„"(Make this anonymous inner class a lambda(ÌÜÝ‚
+D
+java:S1604—"(Make this anonymous inner class a lambda(Úµ”…ùÿÿÿÿ
+?
+java:S1604"(Make this anonymous inner class a lambda(Êã®õ
+?
+java:S1604¤"(Make this anonymous inner class a lambda(ãûœø
+D
+java:S1604«"(Make this anonymous inner class a lambda(µ„”Ùÿÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+O
+java:S1128"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+Z
+java:S1128'"?Remove this unused import 'com.app.foundit.utils.ErrorMessage'.(‹û–ºÿÿÿÿÿ
+?
+java:S1659@"$Declare "mMonth" on a separate line.(Ë¯Æ¸üÿÿÿÿ
+=
+java:S1659@""Declare "mDay" on a separate line.(Ë¯Æ¸üÿÿÿÿ
+>
+java:S1659@"#Declare "mHour" on a separate line.(Ë¯Æ¸üÿÿÿÿ
+@
+java:S1659@"%Declare "mMinute" on a separate line.(Ë¯Æ¸üÿÿÿÿ
+B
+java:S1659A",Declare "SELECT_PICTURE" on a separate line.(‰öì›
+n	java:S116A"YRename this field "SELECT_GALLERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰öì›
+n	java:S116A"YRename this field "SELECT_PICTURE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰öì›
+R	java:S125°"<This block of commented-out lines of code should be removed.(Ü™Íá

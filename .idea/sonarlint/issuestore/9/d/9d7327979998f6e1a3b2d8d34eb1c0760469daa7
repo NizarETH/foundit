@@ -1,0 +1,13 @@
+
+k	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸÷Æêüÿÿÿÿ
+C
+java:S1604T"(Make this anonymous inner class a lambda(âÆ«´ıÿÿÿÿ
+\
+java:S1226@"AIntroduce a new variable instead of reusing the parameter "view".(¹´Ñöıÿÿÿÿ
+s
+java:S1128"QRemove this unused import 'com.app.foundit.fragments.user.DetailsObjectFragment'.(ğ„‚ïüÿÿÿÿ8ş„¹ï¤/
+m
+java:S1128"PRemove this unused import 'com.app.foundit.fragments.admin.ProfilAdminFragment'.(¾ı”ƒ8¶ƒâğ¤/
+j	java:S116$"PRename this field "Users" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Š¢ûÿÿÿÿ
+P
+java:S2209@"5Change this instance-reference to a static reference.(¹´Ñöıÿÿÿÿ

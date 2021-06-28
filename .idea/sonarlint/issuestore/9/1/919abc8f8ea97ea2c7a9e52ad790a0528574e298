@@ -1,0 +1,44 @@
+
+`
+java:S2095"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò
+j
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(„¬ÈÍşÿÿÿÿ
+j
+java:S2095ç"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(°§¿ƒøÿÿÿÿ
+`
+java:S2095æ"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ²ùÏ
+O
+java:S4973;"9Use the "equals" method if value comparison was intended.(ÑÛ÷»
+m
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 95 to the 80 allowed.(Ñ°×Ìşÿÿÿÿ
+G
+java:S5261d"1Add explicit curly braces to avoid dangling else.(å¥‡
+Y
+java:S1117Y">Rename "contentUri" which hides the field declared at line 24.(İš…Æùÿÿÿÿ
+L
+java:S2696i"6Make the enclosing method "static" or remove this set.(Û©±Å
+Y
+java:S1117x">Rename "contentUri" which hides the field declared at line 24.(½áìÃıÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(Æš„
+=
+java:S1075¼"&Remove this hard-coded path-delimiter.(ñÚĞ’
+O
+java:S1854ã"8Remove this useless assignment to local variable "size".(è•Âä
+W	java:S125ì"<This block of commented-out lines of code should be removed.(íïğÔşÿÿÿÿ
+O
+java:S1854“"8Remove this useless assignment to local variable "size".(è•Âä
+=
+java:S1075—"&Remove this hard-coded path-delimiter.(Ò¾·å
+B
+java:S1075™"&Remove this hard-coded path-delimiter.(¬—ÓÑşÿÿÿÿ
+B
+java:S1075™"&Remove this hard-coded path-delimiter.(¬—ÓÑşÿÿÿÿ
+=
+java:S1075›"&Remove this hard-coded path-delimiter.(ëïÉ¶
+?
+java:S14818")Remove this unused "type" local variable.(§Å
+@
+java:S1481ã")Remove this unused "size" local variable.(è•Âä
+@
+java:S1481“")Remove this unused "size" local variable.(è•Âä

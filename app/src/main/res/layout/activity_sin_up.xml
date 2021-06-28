@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="117dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/founditlogo1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="389dp"
+        android:layout_height="363dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_with_low_opp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="400dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome_text4" />
+
+
+    <EditText
+        android:id="@+id/nom_et_pr_n"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/nom_et_pr_n"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/green_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adresse_e_m"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/green_"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/adresse_e_m"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/num_ro_de_t"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="468dp"
+        android:textColor="@color/green_"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/num_ro_de_t"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mot_de_pass"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="532dp"
+        android:textColor="@color/green_"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/mot_de_pass"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/s_inscrire"
+        android:layout_width="269dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="592dp"
+
+        android:background="@drawable/sin_up_design"
+        android:text="S'inscrire"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:backgroundTint="#7AE590"
+        android:textColor="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

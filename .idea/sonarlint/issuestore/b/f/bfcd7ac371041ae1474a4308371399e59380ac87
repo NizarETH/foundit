@@ -1,0 +1,36 @@
+
+F
+java:S1066ç"/Merge this if statement with the enclosing one.(ïûƒù
+F
+java:S1066ë"/Merge this if statement with the enclosing one.(ÊÛÃŒ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¢Šşÿÿÿÿ
+C
+java:S1604)"(Make this anonymous inner class a lambda(²¾°òûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(öÔØ©øÿÿÿÿ
+Q	java:S125V"<This block of commented-out lines of code should be removed.(”ÃŒÖ
+Q	java:S125\"<This block of commented-out lines of code should be removed.(ë®Ü¼
+o
+java:S2293a"YReplace the type specification in this constructor call with the diamond operator ("<>").(†ï›É
+Q	java:S125c"<This block of commented-out lines of code should be removed.(â¾½³
+V
+java:S1161¨":Add the "@Override" annotation above this method signature(ÿİç›üÿÿÿÿ
+=	java:S131ª""Add a default case to this switch.(¼œóÛüÿÿÿÿ
+W	java:S125û"<This block of commented-out lines of code should be removed.(ğóÌÁşÿÿÿÿ
+=	java:S131°""Add a default case to this switch.(ß¶úåÿÿÿÿÿ
+S
+java:S1854¤"<Remove this useless assignment to local variable "duration".(®Ù¢ˆ
+R	java:S125İ"<This block of commented-out lines of code should be removed.(Ú™Ÿˆ
+8	java:S131Á""Add a default case to this switch.(äë
+=	java:S131ô""Add a default case to this switch.(ë´åİşÿÿÿÿ
+R	java:S125€"<This block of commented-out lines of code should be removed.(„÷ºÕ
+R	java:S125¡"<This block of commented-out lines of code should be removed.(–ÛüÄ
+8	java:S131«""Add a default case to this switch.(³¹ôé
+W	java:S125Ü"<This block of commented-out lines of code should be removed.(äşˆêùÿÿÿÿ
+N
+java:S1135Ş"2Complete the task associated to this TODO comment.(õˆÏüÿÿÿÿ
+I
+java:S1135™"2Complete the task associated to this TODO comment.(Òÿ
+B
+java:S1905°"&Remove this unnecessary cast to "int".(è©­¡ûÿÿÿÿ
+=	java:S131§""Add a default case to this switch.(“¶“âûÿÿÿÿ
+R	java:S125²"<This block of commented-out lines of code should be removed.(ÿâ¦Â

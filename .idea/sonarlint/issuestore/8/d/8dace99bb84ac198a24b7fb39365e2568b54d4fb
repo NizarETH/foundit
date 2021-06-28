@@ -1,0 +1,7 @@
+
+C
+java:S1604R"(Make this anonymous inner class a lambda(âÆ«´ýÿÿÿÿ
+\
+java:S1226>"AIntroduce a new variable instead of reusing the parameter "view".(¹´Ñöýÿÿÿÿ
+P
+java:S2209>"5Change this instance-reference to a static reference.(¹´Ñöýÿÿÿÿ

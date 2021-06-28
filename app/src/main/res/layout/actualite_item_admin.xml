@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="4dp"
+        android:background="@drawable/corner_rose">
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="details"
+            android:layout_margin="4dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/clock"
+                    android:layout_margin="2dp"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/green_"
+                    android:src="@drawable/clock"/>
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_marginRight="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12/03/2021"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="Supprimer"
+                android:background="@drawable/corner_rose"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                app:backgroundTint="@color/red"
+                android:textColor="@color/white"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

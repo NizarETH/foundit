@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Foundit" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q"> false </item>
+
+        <item name="colorPrimary">@color/green_</item>
+        <item name="colorPrimaryDark">@color/green_</item>
+        <item name="colorAccent">@color/green_</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

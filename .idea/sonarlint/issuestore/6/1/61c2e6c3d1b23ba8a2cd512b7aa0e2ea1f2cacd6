@@ -1,0 +1,22 @@
+
+g
+java:S1301ô"KReplace this "switch" statement by "if" statements to increase readability.(ß¶úåÿÿÿÿÿ
+g
+java:S1301û"KReplace this "switch" statement by "if" statements to increase readability.(ß¶úåÿÿÿÿÿ
+g
+java:S1301‚"KReplace this "switch" statement by "if" statements to increase readability.(ß¶úåÿÿÿÿÿ
+b
+java:S1301±"KReplace this "switch" statement by "if" statements to increase readability.(äë
+`
+java:S2184—"DCast one of the operands of this subtraction operation to a "float".(­¾“Ëşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¢Šşÿÿÿÿ
+`
+java:S3358Ï"DExtract this nested ternary operation into an independent statement.(ÓÑäÜıÿÿÿÿ
+=	java:S131ô""Add a default case to this switch.(ß¶úåÿÿÿÿÿ
+=	java:S131û""Add a default case to this switch.(ß¶úåÿÿÿÿÿ
+=	java:S131‚""Add a default case to this switch.(ß¶úåÿÿÿÿÿ
+8	java:S131±""Add a default case to this switch.(äë
+:
+java:S1659Œ"#Declare "right" on a separate line.(‰¼ºŞ
+;
+java:S1659Œ"$Declare "offset" on a separate line.(‰¼ºŞ

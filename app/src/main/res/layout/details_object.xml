@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Une carte d'identité"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/image_object"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Détails"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/corner_rose"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:elevation="3dp"
+        android:layout_margin="10sp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp"
+            android:layout_weight="1.2">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:tint="@color/green_"
+                android:layout_margin="4dp"
+                android:src="@drawable/user"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="test"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="28dp"
+                android:layout_margin="4dp"
+                android:src="@drawable/pin"
+                android:tint="@color/green_" />
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="test"
+                android:textColor="@color/black"/>
+        </LinearLayout> <LinearLayout
+        android:layout_width="0dp"
+        android:layout_margin="4dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="20dp"
+            android:layout_margin="4dp"
+            android:tint="@color/green_"
+            android:src="@drawable/calendar"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="test"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="12sp"
+
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/found_object"
+        android:layout_width="218dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/sin_up_design"
+        android:text="C'est à moi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:backgroundTint="#7AE590"
+        android:textColor="@color/white"  />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/founditlogo1"
+          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/open_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Profile"/>
+        <View
+            android:id="@+id/line1"
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:background="@color/lawn_green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Aide"/>
+        <View
+            android:id="@+id/line2"
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:background="@color/lawn_green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:text="Privacy policy"/>
+        <View
+            android:id="@+id/line3"
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:background="@color/lawn_green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:text="Last update"/>
+        <View
+            android:id="@+id/line4"
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:background="@color/lawn_green"
+            />
+        <View
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/disconnect"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:background="@drawable/sin_up_design"
+            android:text="Déconnexion"
+            app:backgroundTint="#7AE590"
+            android:textColor="@color/white"
+            android:layout_marginBottom="60dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

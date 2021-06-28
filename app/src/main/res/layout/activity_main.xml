@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.MainActivity">
+
+
+    <include android:id="@+id/top_bar" layout="@layout/top_bar"
+        android:visibility="gone"/>
+   <include android:id="@+id/top_bar_admin" layout="@layout/top_bar_admin"
+        android:visibility="gone"/>
+
+    <FrameLayout android:id="@+id/fragment_container"
+        android:layout_marginTop="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+    </FrameLayout>
+    <View
+        android:id="@+id/shadowview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A0000000"
+        android:visibility="gone"
+        />
+</RelativeLayout>

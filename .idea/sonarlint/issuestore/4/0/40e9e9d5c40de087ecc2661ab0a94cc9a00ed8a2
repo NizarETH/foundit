@@ -1,0 +1,32 @@
+
+f	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ò‘¦
+>
+java:S1604`"(Make this anonymous inner class a lambda(¹ ÚÌ
+>
+java:S1604g"(Make this anonymous inner class a lambda(Üø„ò
+C
+java:S1604p"(Make this anonymous inner class a lambda(§ÔÖéıÿÿÿÿ
+>
+java:S1604y"(Make this anonymous inner class a lambda(›ê¸ª
+D
+java:S1604‡"(Make this anonymous inner class a lambda(Ë‘Ü±ıÿÿÿÿ
+D
+java:S1604"(Make this anonymous inner class a lambda(ÛëÜ“ÿÿÿÿÿ
+?
+java:S1604›"(Make this anonymous inner class a lambda(¯°ëŞ
+D
+java:S1604¥"(Make this anonymous inner class a lambda(œÃ¬¤ùÿÿÿÿ
+D
+java:S1604¯"(Make this anonymous inner class a lambda(¡„ÿ„ùÿÿÿÿ
+?
+java:S1604¹"(Make this anonymous inner class a lambda(²´§¼
+D
+java:S1604Å"(Make this anonymous inner class a lambda(‘Ò¾şÿÿÿÿ
+?
+java:S1659'"$Declare "isKeys" on a separate line.(ÙŸàúıÿÿÿÿ
+?
+java:S1659'"$Declare "isFile" on a separate line.(ÙŸàúıÿÿÿÿ
+A
+java:S1659'"&Declare "isLaptop" on a separate line.(ÙŸàúıÿÿÿÿ
+i	java:S116&"TRename this field "grid_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü´‘˜
+Q	java:S125C"<This block of commented-out lines of code should be removed.(•î²Ï

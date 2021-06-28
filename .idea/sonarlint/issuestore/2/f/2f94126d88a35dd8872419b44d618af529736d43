@@ -1,0 +1,29 @@
+
+f	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¡ßô
+>
+java:S1604["(Make this anonymous inner class a lambda(œù›´
+>
+java:S1604a"(Make this anonymous inner class a lambda(ØÊ×¥
+>
+java:S1604g"(Make this anonymous inner class a lambda(›¨îŽ
+C
+java:S1604w"(Make this anonymous inner class a lambda(¯„¦ üÿÿÿÿ
+=
+java:S1604}"(Make this anonymous inner class a lambda(ÆÊ„
+C
+java:S1604r"(Make this anonymous inner class a lambda(œÚµ‡þÿÿÿÿ
+n
+java:S1104""XMake bodyFragment a static final constant or non-public and provide accessors if needed.(«úÒç
+k
+java:S1104#"PMake menu a static final constant or non-public and provide accessors if needed.(ê˜æåýÿÿÿÿ
+f
+java:S1128"PRemove this unused import 'com.app.foundit.fragments.admin.ProfilAdminFragment'.(¾ý”ƒ
+V
+java:S1128";Remove this unused import 'com.app.foundit.beans.MyObject'.(Æê¥¥ûÿÿÿÿ
+V	java:S1259"<This block of commented-out lines of code should be removed.(¨–Óðùÿÿÿÿ
+i	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž”åžüÿÿÿÿ
+d	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‡·ƒ
+E
+java:S1068%"*Remove this unused "isUser" private field.(µÊÉùÿÿÿÿ
+A
+java:S1068&"+Remove this unused "isAdmin" private field.(’™áš

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+
+    <EditText
+        android:id="@+id/nom_cont"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/votre_nome"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sujet"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle1_design"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/sujet"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="295dp"
+        android:layout_height="276dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/msg_area"
+        android:gravity="center_horizontal"
+        android:hint="@string/msg"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/msg_env"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/poster_"
+        android:gravity="center_horizontal|center_vertical"
+        android:selectAllOnFocus="true"
+        android:text="@string/envoyer"
+        android:textColor="@color/white"
+         app:backgroundTint="#7AE590"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
