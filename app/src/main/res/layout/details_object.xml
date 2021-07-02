@@ -31,13 +31,14 @@
         android:textColor="@color/black"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="65dp"
         android:background="@drawable/corner_rose"
         android:orientation="horizontal"
         android:gravity="center"
         android:elevation="3dp"
         android:layout_margin="10sp">
         <LinearLayout
+            android:id="@+id/open_profil"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal"

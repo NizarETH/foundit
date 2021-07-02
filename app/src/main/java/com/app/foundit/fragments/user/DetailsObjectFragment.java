@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import com.app.foundit.R;
 import com.app.foundit.beans.MyObject;
 import com.app.foundit.utils.GlideApp;
+import com.app.foundit.utils.PopUpClass;
 import com.bumptech.glide.Glide;
 
 import io.realm.Realm;
@@ -44,9 +45,9 @@ public class DetailsObjectFragment extends Fragment {
 
         GlideApp.with(getActivity()).load(myObject.getPicture()).into((ImageView) v.findViewById(R.id.image_object));
         if(role.equalsIgnoreCase("guest"))
-        {
-            v.findViewById(R.id.found_object).setVisibility(View.INVISIBLE);
-        }
+            {
+                v.findViewById(R.id.found_object).setVisibility(View.INVISIBLE);
+            }
         else {
             v.findViewById(R.id.found_object).setVisibility(View.VISIBLE);
             v.findViewById(R.id.found_object).setOnClickListener(new View.OnClickListener() {
@@ -57,6 +58,22 @@ public class DetailsObjectFragment extends Fragment {
             });
         }
 
+        v.findViewById(R.id.open_profil).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        v.findViewById(R.id.open_profil).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                PopUpClass popUpClass = new PopUpClass();
+                if(myObject.getFounder() != null)
+                   popUpClass.showPopupWindow(v,myObject.getFounder() .getId());
+            }
+        });
         return v;
     }
 }
